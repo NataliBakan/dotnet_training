@@ -8,8 +8,8 @@ namespace Lessons_5_6.Structures
 {
     struct DayInfo
     {
-        public int Day { get; set; }
-        public int Month { get; set; }
+        public int Day { get; private set; }
+        public int Month { get; private set; }
 
         public DayInfo(int day, int month)
         {
