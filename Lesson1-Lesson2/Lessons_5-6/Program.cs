@@ -37,8 +37,8 @@ namespace Lessons_5_6
             var storage1 = new FileStorage();
             var storage2 = new MemoryStorage();
 
-            Console.WriteLine(storage1.Save("hello"));
-            Console.WriteLine(storage2.Save("hello"));
+            storage1.Save("hello");
+            storage2.Save("hello");
 
             // 6
             var stepCounter = new StepCounter();
@@ -55,9 +55,9 @@ namespace Lessons_5_6
             bicycle.Move();
 
             // 8 
-            Shape[] shapes = new Shape[] { new Rectangle(4,5), new Circle(5), new Rectangle(1, 7) };
+            Shape[] shapes = new Shape[] { new Rectangle(4, 5), new Circle(5), new Rectangle(1, 7) };
 
-            foreach (Shape shape in shapes) 
+            foreach (Shape shape in shapes)
             {
                 Console.WriteLine(shape.GetArea());
             }

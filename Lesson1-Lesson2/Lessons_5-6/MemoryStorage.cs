@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Lessons_5_6
 {
-    class MemoryStorage: IStorage
+    class MemoryStorage : IStorage
     {
-        public string Save(string data)
+        public void Save(string data)
         {
-            return "Данные сохранены в память";
+            Console.WriteLine("Данные сохранены в память");
         }
     }
 }

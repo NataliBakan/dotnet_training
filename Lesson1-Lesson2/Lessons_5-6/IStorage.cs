@@ -8,6 +8,6 @@ namespace Lessons_5_6
 {
     public interface IStorage
     {
-        string Save(string data);
+        void Save(string data);
     }
 }

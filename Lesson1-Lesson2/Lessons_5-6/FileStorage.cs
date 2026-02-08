@@ -8,8 +8,8 @@ namespace Lessons_5_6
 {
     class FileStorage: IStorage
     {
-        public string Save(string data) {
-            return "Данные сохранены в файл";
+        public void Save(string data) {
+            Console.WriteLine("Данные сохранены в файл");
         }
     }
 }
